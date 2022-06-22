@@ -5,9 +5,10 @@ widget: pages
 
 # This file represents a page section.
 headless: true
+active: true 
 
 # Order that this section appears on the page.
-weight: 90
+weight: 70
 
 title: Recent Publications
 subtitle: ''
@@ -34,8 +35,9 @@ design:
   # Choose a view for the listings:
   view: citation
   columns: '2'
+
+# {{% callout note %}}
+# Quickly discover relevant content by [filtering publications](./publication/).
+# {{% /callout %}}
 ---
 
-{{% callout note %}}
-Quickly discover relevant content by [filtering publications](./publication/).
-{{% /callout %}}
